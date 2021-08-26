@@ -1,0 +1,729 @@
+a {
+  color: #FFF;
+  text-decoration: none; }
+
+body {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 12px; }
+
+.container {
+  max-width: 1208px;
+  margin: 0 auto; }
+
+.line {
+  border: 2px solid #E8C300;
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 10px; }
+
+.header {
+  background: url("../img/header-bg.png") center center/cover no-repeat;
+  max-height: 675px;
+  padding-top: 25px;
+  padding-bottom: 50px; }
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1; }
+
+.menu {
+  padding-left: 0; }
+  .menu_item {
+    display: inline-block;
+    padding-right: 80px; }
+    .menu_item:last-child {
+      padding-right: 0; }
+  .menu_link {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase; }
+
+.promo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 151px; }
+
+.down {
+  margin: 0 auto;
+  padding-top: 22px;
+  width: 100px;
+  text-align: center; }
+  .down:hover {
+    padding-top: 32px;
+    transition: 0.8s; }
+
+.data {
+  font-weight: bold;
+  line-height: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  transform: rotate(-90deg);
+  margin-bottom: 10px; }
+
+.promo_center {
+  margin-left: -16%; }
+.promo_subtitle {
+  font-weight: bold;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+.promo_title {
+  font-family: Banny;
+  font-size: 86px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 14px;
+  margin-bottom: 30px; }
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 31px; }
+
+.button-booktable {
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  background: #E8C300;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer; }
+  .button-booktable:hover {
+    box-shadow: 0px 2px 18px 6px rgba(255, 255, 255, 0.72); }
+
+.button-explore {
+  ont-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  background: transparent;
+  margin-left: 40px;
+  cursor: pointer; }
+  .button-explore:hover {
+    box-shadow: 0px 2px 18px 6px rgba(255, 255, 255, 0.72); }
+
+.social {
+  display: flex;
+  flex-direction: column; }
+  .social_img {
+    margin-bottom: 20px;
+    border-radius: 50px; }
+    .social_img:last-child {
+      margin-bottom: 0; }
+    .social_img:hover {
+      box-shadow: 0px 2px 37px 6px rgba(255, 255, 255, 0.5); }
+
+.about {
+  max-height: 550px;
+  background-color: #fff;
+  padding-bottom: 50px; }
+  .about_title {
+    font-family: Banny;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000; }
+  .about_text {
+    font-size: 14px;
+    text-align: center;
+    color: #000000; }
+  .about_strong {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000; }
+  .about_promo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px; }
+  .about_img {
+    width: 600px; }
+
+.team {
+  max-height: 676px;
+  background: url("../img/team-bg.png") center center/cover no-repeat; }
+  .team_promo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px; }
+  .team_title {
+    font-weight: bold;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 40px; }
+  .team_img {
+    width: 588px;
+    margin-bottom: 50px; }
+  .team_special {
+    font-family: Banny;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF; }
+  .team_text {
+    font-size: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9); }
+  .team_strong {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9); }
+
+.booknow {
+  max-height: 700px;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .booknow_promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .booknow_title {
+    font-family: Banny;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 5px; }
+  .booknow_input {
+    width: 277px;
+    height: 60px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 20px; }
+    .booknow_input:last-child {
+      margin-bottom: 0px;
+      margin-right: 0px; }
+  .booknow_button {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background: #E8C300;
+    width: 98%;
+    height: 60px;
+    margin-top: 10px;
+    cursor: pointer; }
+  .booknow_data {
+    font-size: 12px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.5);
+    border-radius: 5px; }
+
+.form {
+  margin-top: 20px; }
+
+.inputs {
+  display: flex; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  width: 11px;
+  height: 11px; }
+
+.swiper-pagination {
+  width: 100px;
+  margin: 0 auto; }
+
+.slider {
+  max-width: 50%; }
+  .slider_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.specialties {
+  background: url("../img/specialtys-bg.png") center center/cover no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .specialties_promo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .specialties_title {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .specialties_subtitle {
+    font-family: Banny;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF; }
+  .specialties_text {
+    font-size: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9); }
+
+.strong {
+  font-weight: bold;
+  font-size: 18px; }
+
+.foodmenu {
+  max-height: 800px;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .foodmenu_title {
+    font-family: Banny;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 10px; }
+  .foodmenu_subtitle {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    max-width: 565px;
+    margin: 0 auto;
+    margin-top: 20px; }
+  .foodmenu_menu {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px; }
+  .foodmenu_item {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px; }
+    .foodmenu_item:last-child {
+      margin-right: 0; }
+  .foodmenu_link {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #333333;
+    text-transform: uppercase; }
+    .foodmenu_link:hover {
+      border-bottom: 2px solid #333333; }
+  .foodmenu_promo_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+
+.box {
+  max-width: 355px;
+  margin-bottom: 30px; }
+  .box_text {
+    font-family: Banny;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+.normal {
+  font-size: 14px;
+  text-transform: lowercase;
+  padding-top: 1px;
+  color: grey; }
+
+.events {
+  max-height: 675px;
+  background: url("../img/event.png") center center/cover no-repeat;
+  padding-top: 50px;
+  padding-bottom: 15px; }
+  .events_title {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .events_promo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .events_info {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px; }
+
+.gallery {
+  max-height: 360px;
+  display: flex; }
+  .gallery_img {
+    max-width: 299px; }
+
+.contact {
+  max-height: 600px;
+  padding-top: 50px;
+  padding-bottom: 80px; }
+  .contact_title {
+    font-family: Banny;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 5px; }
+  .contact_subtitle {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    max-width: 565px;
+    margin: 0 auto;
+    margin-top: 10px; }
+  .contact_promo {
+    margin-top: 30px; }
+  .contact_input {
+    width: 380px;
+    height: 60px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    padding-left: 15px; }
+  .contact_inputs {
+    display: flex;
+    justify-content: space-between; }
+  .contact_input_area {
+    width: 98%;
+    background: #E5E5E5;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 10px;
+    padding-left: 15px; }
+  .contact_info {
+    font-weight: bold;
+    font-size: 12px;
+    align-items: center;
+    color: rgba(51, 51, 51, 0.5);
+    border-radius: 5px; }
+  .contact_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px; }
+  .contact_button {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 640px;
+    height: 60px;
+    background: #E8C300;
+    border-radius: 5px; }
+  .contact_img {
+    width: 15px;
+    height: 15px; }
+
+.map {
+  max-height: 575px; }
+
+.footer {
+  max-height: 100px;
+  background: rgba(0, 0, 0, 0.9);
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px; }
+
+.lines {
+  border-bottom: 2px solid white;
+  width: 30px; }
+
+.menu-button {
+  background-color: #fff;
+  cursor: pointer;
+  display: none; }
+
+.close-menu {
+  display: none; }
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px; }
+
+  .booknow_input {
+    width: 207px;
+    height: 50px; }
+
+  .events_img {
+    max-width: 600px; }
+
+  .promo {
+    margin-top: 100px; }
+
+  .promo_title {
+    font-size: 72px; }
+
+  .logo {
+    display: none; } }
+@media (max-width: 1125px) {
+  .booknow_input {
+    width: 127px;
+    height: 50px; }
+
+  .box {
+    margin-bottom: 0; }
+
+  .events_img {
+    max-width: 500px; } }
+@media (max-width: 910px) {
+  .promo {
+    margin-top: 50px; }
+
+  .promo_title {
+    font-size: 52px; }
+
+  .down {
+    display: none; }
+
+  .about_promo {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; }
+
+  .about_img {
+    display: none; }
+
+  .booknow_promo {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; }
+
+  .booknow_img {
+    display: none; }
+
+  .booknow_input {
+    width: 100%;
+    height: 50px; }
+
+  .booknow_button {
+    width: 100%; }
+
+  .menu-button {
+    display: block;
+    background-color: transparent;
+    border: none; }
+
+  .close-menu {
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    z-index: 2; }
+
+  .nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, opacity 0.2s;
+    transform: translateX(-100%);
+    opacity: 0;
+    z-index: 1; }
+
+  .is-open {
+    transform: translateX(0%);
+    opacity: 1; }
+
+  .menu {
+    margin-bottom: 0; }
+
+  .menu_item {
+    display: block;
+    margin-bottom: 40px; }
+
+  .menu_link {
+    font-size: 22px; } }
+@media (max-width: 768px) {
+  .promo {
+    margin-top: 20px;
+    display: block; }
+    .promo_center {
+      margin-left: 0; }
+    .promo_title {
+      font-size: 40px; }
+
+  .button-booktable {
+    width: 120px;
+    height: 40px; }
+
+  .button-explore {
+    width: 120px;
+    height: 40px; }
+
+  .data {
+    display: none; }
+
+  .social {
+    display: none; }
+
+  .team_promo {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px; }
+  .team_img {
+    display: none; }
+
+  .booknow_button {
+    text-align: center;
+    width: 50%; }
+
+  .booknow_input {
+    width: 80%; }
+
+  .slider_img {
+    display: none; }
+
+  .specialties_promo {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 0; }
+
+  .contact {
+    padding-top: 0;
+    padding-bottom: 10px; }
+
+  .contact_inputs {
+    display: block;
+    text-align: center; }
+
+  .contact_input {
+    margin-bottom: 15px; }
+
+  .contact_area {
+    text-align: center; }
+
+  .contact_info {
+    display: none; }
+
+  .contact_button {
+    margin: 0 auto;
+    width: 380px; }
+
+  .events_img {
+    max-width: 400px; }
+
+  .events {
+    padding-bottom: 50px; }
+
+  .box_right {
+    display: none; }
+
+  .contact_input_area {
+    width: 80%; }
+
+  .inputs {
+    display: block; }
+
+  .booknow_button {
+    width: 100px; }
+
+  .box_left {
+    display: none; }
+
+  .left_item {
+    margin-bottom: 10px; }
+
+  .booknow_promo {
+    text-align: center; }
+
+  .events_promo {
+    display: block; } }
+@media (max-width: 375px) {
+  .promo_title {
+    font-style: 20px; }
+
+  .about_text {
+    font-size: 12px; }
+
+  .about {
+    padding-bottom: 0; }
+
+  .team_text {
+    font-size: 12px; }
+
+  .booknow {
+    display: none; }
+
+  .specialties {
+    display: none; }
+
+  .contact_input_area {
+    width: 80%;
+    height: 50px; }
+
+  .contact_input {
+    width: 30%;
+    height: 30px; }
+
+  .contact_info {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
