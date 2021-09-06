@@ -63,7 +63,9 @@ body {
   text-align: center;
   color: #FFFFFF;
   transform: rotate(-90deg);
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  display: flex;
+  flex: 0 1 auto; }
 
 .promo_center {
   margin-left: -16%; }
@@ -121,7 +123,8 @@ body {
 
 .social {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  flex: 0 1 auto; }
   .social_img {
     margin-bottom: 20px;
     border-radius: 50px; }
@@ -377,12 +380,11 @@ body {
   padding-top: 50px;
   padding-bottom: 15px; }
   .events_title {
-    font-weight: bold;
-    font-size: 12px;
+    font-family: Banny;
+    font-size: 36px;
     text-align: center;
-    letter-spacing: 0.5em;
     text-transform: uppercase;
-    color: #FFFFFF; }
+    color: #FFF; }
   .events_promo {
     display: flex;
     justify-content: space-around;
@@ -592,7 +594,6 @@ body {
     margin-bottom: 0; }
 
   .menu_item {
-    display: block;
     margin-bottom: 40px; }
 
   .menu_link {
@@ -619,6 +620,9 @@ body {
 
   .social {
     display: none; }
+
+  .menu_item {
+    display: block; }
 
   .team_promo {
     display: block;
